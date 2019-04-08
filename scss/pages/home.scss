@@ -3,7 +3,6 @@
   color: white;
 }
 .intro-container {
-  // background-color: rgba(0, 0, 0, 0.342);
   color: rgb(234, 234, 241);
   padding: 15px;
   border-radius: 10px;
@@ -20,3 +19,28 @@
     filter: saturate(2);
   }
 }
+
+@media only screen and (min-width: 568px) and (max-width: 736px) {
+  .intro-container {
+    transform: translateY(-50px);
+    font-size: 0.8em;
+    margin-right: 75px;
+    .intro {
+      transform: translateY(50px);
+    }
+    .bio-image {
+      height: 33%;
+      width: 33%;
+      float: left;
+      margin-right: 20px;
+    }
+  }
+}
+
+// @media only screen and (orientation: landscape) {
+//   .intro-container {
+//     .bio-image {
+//       border-radius: 5px;
+//     }
+//   }
+// }
