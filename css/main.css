@@ -74,9 +74,25 @@ body {
   .flex-item {
     font-size: 0.7em;
   }
-  .open,
   .close {
     font-size: 1.5em;
+  }
+  .open {
+    font-size: 1.5em;
+    transform: translate(-50%, 20px);
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 736px) {
+  .flex-item {
+    font-size: 0.7em;
+  }
+  .close {
+    font-size: 1.5em;
+  }
+  .open {
+    font-size: 1.5em;
+    transform: translate(-50%, 20px);
   }
 }
 
@@ -127,7 +143,36 @@ body {
 
 @media only screen and (max-width: 414px) {
   .social-icons {
-    font-size: 1.5em;
+    font-size: 1.3em;
+  }
+  .social-icons li {
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 0.5px solid white;
+    list-style: none;
+  }
+  .google {
+    background-color: #dc4e41;
+  }
+  .github {
+    background-color: #080808;
+  }
+  .linkedin {
+    background-color: #0277b5;
+  }
+  .facebook {
+    background-color: #3a5998;
+  }
+  .twitter {
+    background-color: #54acee;
+  }
+}
+
+@media only screen and (min-width: 568px) and (max-width: 736px) {
+  .social-icons {
+    font-size: 1.3em;
   }
   .social-icons li {
     padding-left: 10px;
@@ -185,7 +230,7 @@ body {
     margin-right: 75px;
   }
   .intro-container .intro {
-    transform: translateY(50px);
+    transform: translateY(35px);
   }
   .intro-container .bio-image {
     height: 33%;

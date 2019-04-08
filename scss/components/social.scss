@@ -50,7 +50,35 @@
 
 @media only screen and (max-width: 414px) {
   .social-icons {
-    font-size: 1.5em;
+    font-size: 1.3em;
+    li {
+      padding-left: 10px;
+      padding-right: 5px;
+      padding-top: 6px;
+      padding-bottom: 6px;
+      border: 0.5px solid white;
+      list-style: none;
+    }
+  }
+  .google {
+    background-color: rgb(220, 78, 65);
+  }
+  .github {
+    background-color: rgb(8, 8, 8);
+  }
+  .linkedin {
+    background-color: rgb(2, 119, 181);
+  }
+  .facebook {
+    background-color: rgb(58, 89, 152);
+  }
+  .twitter {
+    background-color: rgb(84, 172, 238);
+  }
+}
+@media only screen and (min-width: 568px) and (max-width: 736px) {
+  .social-icons {
+    font-size: 1.3em;
     li {
       padding-left: 10px;
       padding-right: 5px;
