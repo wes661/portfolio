@@ -13,6 +13,7 @@ body {
   left: 0;
   color: white;
   display: none;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .open {
@@ -225,7 +226,7 @@ body {
 
 @media only screen and (min-width: 568px) and (max-width: 736px) {
   .intro-container {
-    transform: translateY(-50px);
+    transform: translateY(-80px);
     font-size: 0.8em;
     margin-right: 75px;
   }
