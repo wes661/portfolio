@@ -1,0 +1,179 @@
+body {
+  background-image: linear-gradient(to bottom right, rgba(175, 106, 41, 0.445), rgba(0, 0, 0, 0.753)), url("http://4.bp.blogspot.com/-R0-y6uI6PSY/UI4ZCyJvwUI/AAAAAAAAB5Y/omA4n2GoDSM/s1600/mountains-hd-widescreen-high-resolutions-backgrounds-wallpapers-laptop-desktop-042.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+}
+
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: white;
+  display: none;
+}
+
+.open {
+  position: relative;
+  top: -50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  font-size: 2.5em;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.open:hover {
+  color: #0f84e4;
+}
+
+.close {
+  position: relative;
+  right: 50%;
+  transform: translate(50%, 0);
+  font-size: 2.5em;
+  cursor: pointer;
+  color: white;
+  opacity: 1;
+  transition: all 0.3s;
+}
+
+.close:hover {
+  color: #0f84e4;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-item a {
+  text-decoration: none;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  transition: all 0.3s;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.flex-item a:hover {
+  color: black;
+  background-color: #f9fcfc;
+}
+
+@media only screen and (max-width: 414px) {
+  .flex-item {
+    font-size: 0.7em;
+  }
+  .open,
+  .close {
+    font-size: 1.5em;
+  }
+}
+
+.social-icons {
+  position: fixed;
+  top: 0;
+  right: 0;
+  font-size: 2em;
+}
+
+.social-icons li {
+  padding-left: 15px;
+  padding-right: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 0.5px solid white;
+  list-style: none;
+}
+
+.twitter,
+.facebook,
+.linkedin,
+.github,
+.google {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.twitter:hover {
+  background-color: #54acee;
+}
+
+.facebook:hover {
+  background-color: #3a5998;
+}
+
+.linkedin:hover {
+  background-color: #0277b5;
+}
+
+.github:hover {
+  background-color: #080808;
+}
+
+.google:hover {
+  background-color: #dc4e41;
+}
+
+@media only screen and (max-width: 414px) {
+  .social-icons {
+    font-size: 1.5em;
+  }
+  .social-icons li {
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: 0.5px solid white;
+    list-style: none;
+  }
+  .google {
+    background-color: #dc4e41;
+  }
+  .github {
+    background-color: #080808;
+  }
+  .linkedin {
+    background-color: #0277b5;
+  }
+  .facebook {
+    background-color: #3a5998;
+  }
+  .twitter {
+    background-color: #54acee;
+  }
+}
+
+.home {
+  color: white;
+}
+
+.intro-container {
+  color: #eaeaf1;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.intro-container .intro {
+  font-size: 1.1em;
+}
+
+.intro-container .bio-image {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  border: none;
+  margin: 0 auto;
+  filter: saturate(2);
+}

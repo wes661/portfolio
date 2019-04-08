@@ -1,0 +1,23 @@
+.home {
+  color: white;
+}
+
+.intro-container {
+  color: #eaeaf1;
+  padding: 15px;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+
+.intro-container .intro {
+  font-size: 1.1em;
+}
+
+.intro-container .bio-image {
+  height: 50%;
+  width: 50%;
+  border-radius: 50%;
+  border: none;
+  margin: 0 auto;
+  filter: saturate(2);
+}
